@@ -1,0 +1,618 @@
+@media screen and (max-width: 480px) {
+
+    /* start titel section */
+    .titel{
+        width: 80%;
+        margin: auto;
+    }
+    .content{
+        text-align: center;
+        margin-block:50px ;
+    }
+    .content h5{
+        font-size: 13px;
+        font-weight: 300;
+        padding: 10px 30px;
+        color: var(--colore-red);
+        background-color:var(--color-titel) ;
+        width: fit-content;
+        margin: auto;
+        border-radius: 50px;
+    }
+    .content h3{
+        font-size: 20px;
+        font-weight: 700;
+        margin-block:var(--margin-block) ;
+    }
+    .content h3 span{
+        color: var(--colore-red);
+        margin-left: 6px;
+    }
+    /* end titel section */
+
+    /* start hader section */
+    .home .nave-flex .nave-ul ul{
+        position: absolute;
+        left: 0;
+        top: 90%;
+        z-index: 1000;
+        display: inline;
+        padding: 20px;
+        text-align: start;
+        width: 100%;
+        height: 80vh;
+        opacity: 0;
+        visibility: hidden;
+        background-color: #FFFFFF;
+        transition: opacity .5s;
+    }
+    .home .nave-flex .nave-ul ul li{
+        margin-block: 20px;
+        width: fit-content;
+    }
+    .home .nave-flex .nave-ul ul li a{
+        color: black;
+    }
+    .home .nave-flex .nave-ul .uls-close{
+        display: flex;
+    }
+    .home .nave-flex .nave-icon{
+        order: 1;
+        display: flex;
+    }
+
+    .home .hader-section .info-section h3{
+        font-size: 14px;
+    }
+    .home .hader-section .info-section h3 span{
+        font-weight: bold;
+    }
+    .home .hader-section .info-section h1{
+        font-size: 20px;
+    }
+    .home .hader-section .info-section p{
+        font-size: 15px;
+    }
+    /* end hader section */
+
+    
+    /* start titel section */
+
+    .titel{
+        width: 60%;
+    }
+    .About .content h3{
+        font-size: 24px;
+
+    }
+    .About .content h3 span{
+        font-size: 24px;
+
+    }
+    /* end titel section */
+
+    /* start ABOUT section */
+    .About{
+        display: flow-root;
+        margin-bottom:50px ;
+    }
+    .about-contant{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-contant .contant-one{
+        width: calc(100%/1 );
+        margin-bottom: 50px;
+    }
+    .about-contant .contant-two{
+        width: calc(100%/1);
+    }
+    /* end ABOUT section */
+
+    /*start SERVICES section*/
+
+    .services-cards{
+        flex-wrap: wrap;
+    }
+    .services-cards .card{
+        width: calc(100%/1 - 20px);
+        margin-bottom: 20px;
+    }
+
+    .services-mini-cards{
+        flex-wrap: wrap;
+    }
+
+    .services-mini-cards .cards{
+        width: calc(100%/1 - 13px);
+    }
+    /*end SERVICES section*/
+
+    /* start portfolio section */
+
+    .profile-cards .card{
+        width: calc(100%/1 - 30px);
+    }
+
+    .portfolio-uls ul li{
+        margin-inline:6px;
+    }
+    /* end portfolio section */
+
+    /* start PRICING section */
+    .pricing-cards{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .pricing-cards .card{
+        width: calc(100%/1 - 30px);
+    }
+    .pricing-cards .card.tow{
+        scale:1;
+    }
+    /* end PRICING section */
+
+    /* start TEAM section */
+
+    .team-cards{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .team-cards .card{
+        width: calc(100%/1 - 20px);
+    }
+    /* end TEAM section */
+
+    /* start CONTACT section */
+    .display{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contant-info{
+        width: 100%;
+    }
+    .form-con{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .form-con .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    .form-con .row .flex{
+        width: calc(100%/1);
+    }
+    /* end CONTACT section */
+
+    /* start footer section */
+    .data{
+        flex-wrap: wrap;
+    }
+    .col-1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-2{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-3{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-4{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-4 form a{
+        right: 10px;
+    }
+    /* end footer section */
+
+
+    /* end sacand footer section */
+    .data-tow{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ul ul li{
+        display: inline-block;
+        margin-left: 6px;
+    }
+    /* end sacand footer section */
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+
+        /* start hader section */
+    .home .nave-flex .nave-ul ul{
+        position: absolute;
+        left: 0;
+        top: 90%;
+        z-index: 1000;
+        display: inline;
+        padding: 20px;
+        text-align: start;
+        width: 100%;
+        height: 80vh;
+        opacity: 0;
+        visibility: hidden;
+        background-color: #FFFFFF;
+        transition: opacity .5s;
+    }
+    .home .nave-flex .nave-ul ul li{
+        margin-block: 20px;
+        width: fit-content;
+    }
+    .home .nave-flex .nave-ul ul li a{
+        color: black;
+    }
+    .home .nave-flex .nave-ul .uls-close{
+        display: flex;
+    }
+    .home .nave-flex .nave-icon{
+        order: 1;
+        display: flex;
+    }
+
+    .home .hader-section .info-section h3{
+        font-size: 18px;
+    }
+    .home .hader-section .info-section h3 span{
+        font-weight: bold;
+    }
+    .home .hader-section .info-section h1{
+        font-size: 30px;
+    }
+    .home .hader-section .info-section p{
+        font-size: 18px;
+    }
+    /* end hader section */
+
+    /* start titel section */
+
+    .titel{
+        width: 60%;
+    }
+    .About .content h3{
+        font-size: 24px;
+
+    }
+    .About .content h3 span{
+        font-size: 24px;
+
+    }
+    /* end titel section */
+
+    /* start ABOUT section */
+    .About{
+        display: flow-root;
+        margin-bottom:50px ;
+    }
+    .about-contant{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-contant .contant-one{
+        width: calc(100%/1 );
+        margin-bottom: 50px;
+    }
+    .about-contant .contant-two{
+        width: calc(100%/1);
+    }
+    /* end ABOUT section */
+
+    /*start SERVICES section*/
+
+
+    .services-cards{
+        flex-wrap: wrap;
+    }
+    .services-cards .card{
+        width: calc(100%/2 - 20px);
+        margin-bottom: 20px;
+    }
+
+    .services-mini-cards{
+        flex-wrap: wrap;
+    }
+
+    .services-mini-cards .cards{
+        width: calc(100%/2 - 13px);
+    }
+    /*end SERVICES section*/
+
+    /* start portfolio section */
+
+    .profile-cards .card{
+        width: calc(100%/1 - 30px);
+    }
+
+    /* end portfolio section */
+
+    /* start PRICING section */
+    .pricing-cards{
+        flex-wrap: wrap;
+    }
+    .pricing-cards .card{
+        width: calc(100%/1 - 30px);
+    }
+    .pricing-cards .card.tow{
+        scale:1;
+    }
+    /* end PRICING section */
+
+    /* start TEAM section */
+
+    .team-cards{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .team-cards .card{
+        width: calc(100%/2 - 20px);
+    }
+    /* end TEAM section */
+
+    /* start CONTACT section */
+    .display{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contant-info{
+        width: 100%;
+    }
+    .form-con{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .form-con .row{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1px;
+    }
+    .form-con .row .flex{
+        width: calc(100%/1);
+    }
+    /* end CONTACT section */
+
+    /* start footer section */
+    .data{
+        flex-wrap: wrap;
+    }
+    .col-1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-2{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-3{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-4{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .col-4 form a{
+        right: 20px;
+    }
+    /* end footer section */
+
+    /* end sacand footer section */
+    .data-tow{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ul ul li{
+        display: inline-block;
+        margin-left: 6px;
+    }
+    /* end sacand footer section */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* start hader section */
+    .home .nave-flex .nave-ul ul{
+        position: absolute;
+        left: 0;
+        top: 90%;
+        z-index: 1000;
+        display: inline;
+        padding: 20px;
+        text-align: start;
+        width: 100%;
+        height: 80vh;
+        opacity: 0;
+        visibility: hidden;
+        background-color: #FFFFFF;
+        transition: opacity .5s;
+    }
+    .home .nave-flex .nave-ul ul li{
+        margin-block: 20px;
+        width: fit-content;
+    }
+    .home .nave-flex .nave-ul ul li a{
+        color: black;
+    }
+    .home .nave-flex .nave-ul .uls-close{
+        display: flex;
+    }
+    .home .nave-flex .nave-icon{
+        order: 1;
+        display: flex;
+    }
+
+    .home .hader-section .info-section h3{
+        font-size: 18px;
+    }
+    .home .hader-section .info-section h3 span{
+        font-weight: bold;
+    }
+    .home .hader-section .info-section h1{
+        font-size: 30px;
+    }
+    .home .hader-section .info-section p{
+        font-size: 18px;
+    }
+    /* end hader section */
+
+    
+    /* start titel section */
+
+    .titel{
+        width: 60%;
+    }
+    .About .content h3{
+        font-size: 24px;
+
+    }
+    .About .content h3 span{
+        font-size: 24px;
+
+    }
+    /* end titel section */
+
+    /* start ABOUT section */
+    .About{
+        display: flow-root;
+        margin-bottom:50px ;
+    }
+    .about-contant{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-contant .contant-one{
+        width: calc(100%/1 );
+        margin-bottom: 50px;
+    }
+    .about-contant .contant-two{
+        width: calc(100%/1);
+    }
+    /* end ABOUT section */
+
+    /*start SERVICES section*/
+
+    .services-cards .card .inner .card-body {
+        padding: 0px 10px;
+    }
+
+    .services-cards{
+        flex-wrap: wrap;
+    }
+    .services-cards .card{
+        width: calc(100%/3 - 20px);
+        margin-bottom: 20px;
+    }
+
+    .services-mini-cards{
+        flex-wrap: wrap;
+    }
+
+    .services-mini-cards .cards{
+        width: calc(100%/3 - 13px);
+    }
+    /*end SERVICES section*/
+
+    /* start portfolio section */
+
+    .profile-cards .card{
+        width: calc(100%/2 - 30px);
+    }
+
+    /* end portfolio section */
+
+    /* start PRICING section */
+    .pricing-cards{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .pricing-cards .card{
+        width: calc(100%/2 - 30px);
+    }
+    .pricing-cards .card.tow{
+        scale:1;
+    }
+    /* end PRICING section */
+
+    /* start TEAM section */
+
+    .team-cards{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .team-cards .card{
+        width: calc(100%/2 - 20px);
+    }
+    /* end TEAM section */
+
+    /* start CONTACT section */
+    .display{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contant-info{
+        width: 100%;
+    }
+    .form-con{
+        width: 100%;
+        margin-left: 0px;
+    }
+    /* end CONTACT section */
+
+    /* start footer section */
+    .data{
+        flex-wrap: wrap;
+    }
+    .col-1{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .col-2{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .col-3{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .col-4{
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .col-4 form a{
+        right: 10px;
+    }
+    /* end footer section */
+
+    /* end sacand footer section */
+    .data-tow{
+        justify-content: space-evenly;
+    }
+    .data-tow .info {
+        width:fit-content;
+    }
+    .ul{
+        width:fit-content;
+    }
+    .ul ul li{
+        display: inline-block;
+        margin-left: 6px;
+    }
+    /* end sacand footer section */
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+    .services-cards .card .inner .card-body {
+        padding: 0px 5px;
+    }
+}
+
